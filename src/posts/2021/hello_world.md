@@ -5,8 +5,7 @@ author: RossD
 summary: How to not get stuck when deciding on a blogging platform (for software developers)
 tags:
   - tech
-  - draft
-draft: true
+draft: false
 ---
 I've been meaning to start a blog/portfolio site for almost two years now. I looked into all sort of jam stack solutions, thought about coding something up from scratch, and even considered just writing bare html. I didn't want to go with wordpress because that feels like a cop out (even though it is definitely the 2nd best option) 
 

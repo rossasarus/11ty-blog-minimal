@@ -5,6 +5,7 @@ author: RossD
 summary: Setting up a blog is so 90's. So why did I do it?
 tags:
   - tech
+draft: false
 ---
 Blogging is admittedly kind of old-school nowadays. I might as well be writing notes on punch cards or uploading files to a BBS! There are definitely **still a lot of benefits to putting your ideas on the internet**. My main motivation is that publicly documenting things tends to mean that I do a better job in comparison to more private notes, and blogging makes it easier (for me) to stumble upon via future searches. Yes - it feels weird to make content on a site so I can later find my own content via google, but that's the way it works out best for me.
 <!-- excerpt -->

@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Blog<br>
+title: blog
 pagination:
   data: collections.posts
-  size: 10
+  size: 20
   reverse: false
   alias: posts
 ---
 
 {% for post in pagination.items %}
-{% if post.data.published %}
+{% if post.data.published and post.data.draft == false %}
 <div class="py-4">
   <p>
     <span class="text-2xl sm:text-4xl font-bold hover:text-blue-700 leading-tight"><a href="{{ post.url }}">{{ post.data.title }}</a></span>
@@ -21,7 +21,7 @@ pagination:
   <div class="flex justify-between items-center mt-4">
     <div class="flex-1 pr-4">
       {% for tag in post.data.tags %}
-        {% if tag != "posts" %}
+        {% if tag != "posts" and tag != "draft" %}
           <a href="/tags/{{ tag }}" class="">
             <div class="post-tag">{{ tag }}</div>
           </a>
