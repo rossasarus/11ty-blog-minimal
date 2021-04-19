@@ -3,4 +3,4 @@ layout: default
 title: This is me.
 ---
 
-She/her. A software person. Singapore.
+He/Him. A software person. I've been a nerd since birth.
