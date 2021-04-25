@@ -1,24 +1,32 @@
 ---
-title: Hello world!
+title: Why did I choose eleventy / netlify?
 date: 2020-04-18
 author: RossD
-summary: Setting up a blog is so 90's. So why did I do it?
+summary: How to not get stuck when deciding on a blogging platform (for software developers)
 tags:
   - tech
+  - platform
+  - eleventy
 draft: false
 ---
-Blogging is admittedly kind of old-school nowadays. I might as well be writing notes on punch cards or uploading files to a BBS! There are definitely **still a lot of benefits to putting your ideas on the internet**. My main motivation is that publicly documenting things tends to mean that I do a better job in comparison to more private notes, and blogging makes it easier (for me) to stumble upon via future searches. Yes - it feels weird to make content on a site so I can later find my own content via google, but that's the way it works out best for me.
+I've been meaning to start a blog/portfolio site for almost two years now. I looked into all sort of jam stack solutions, thought about coding something up from scratch, and even considered just writing bare html. I didn't want to go with wordpress because that feels like a cop out (even though it is definitely the 2nd best option) 
+
+Ultimately I chose eleventy hosted on netlify for a few reasons:
 <!-- excerpt -->
 
-# Why blog?
-TODO: add an image
+# How to not get stuck when deciding on a blogging platform (for software developers)
+{% asset_img 'decision_tree2.png' 'tech decision tree' %}
 
-Blogging is admittedly kind of old-school nowadays. I might as well be writing notes on punch cards or uploading files to a BBS! There are definitely **still a lot of benefits to putting your ideas on the internet**. My main motivation is that publicly documenting things tends to mean that I do a better job in comparison to more private notes, and blogging makes it easier (for me) to stumble upon via future searches. Yes - it feels weird to make content on a site so I can later find my own content via google, but that's the way it works out best for me.
+I've been meaning to start a blog/portfolio site for almost two years now. I looked into all sort of jam stack solutions, thought about coding something up from scratch, and even considered just writing bare html. I didn't want to go with wordpress because that feels like a cop out (even though it is definitely the 2nd best option) 
 
-Twitter seems to be a great wealth of info for programming trends, but only as long as you have your face in the firehose. Searching twitter is a hot mess, and I never have good luck finding anything unless I remember exactly who wrote it. Even then I often hit a dead end.
+Ultimately I chose eleventy hosted on netlify for a few reasons:
 
- More generically - in the past I've found that documenting **anything** has great benefits: 
-- The mere fact that I'm writing it down means that I am forced to ask more questions (and answer them) about WHY something is the way it is.
-- It's very rare that one question finds its answer without another question coming up along the way. These chained questions can be great motivation to keep digging and as a result end up building a more powerful mental model.
-- Having a place to put my answers means that I want to ask more questions (or rather find more answers)
-- The mere fact that I've written what the problem and the answer are mean that I will likely use very similar wording if I ever search for it again.
+- It is incredibly easy to start up. A few clicks and there is a demo site set up in netlify, and a repo created in your github.
+- It stores all of the content in markdown files, so if I choose something else in the future the data is already in a readable format.
+- It is super fast - wordpress is slow to load, slow to 
+- Having a static site distributed via CDN makes me feel like there isn't much surface area to attack. With wordpress I always feel like I'm an inch away from having to wipe an rebuild a site due to some 0-day. Rebuilding eleventy from the repo is... just called a normal deploy.
+
+There are admittedly some downsides:
+- I haven't figured out the netlify CMS yet, so it's all manual markdown work. That fits in with my vision of having a site with really minimal styling, but it might not be for everyone.
+- I'm sure that this won't be `the cool thing` in a few years (months?) and it might also stop working. This point was mostly negated by the markdown-based post approach because it makes it easy for me to take my content with me.
+- I am pretty confident with wordpress setup and control, and trying to add functionality/plugins to eleventy looks to be harder and more limited. I accept this because I'm not sure what else I would really need, but it does slightly concern me.

@@ -40,15 +40,6 @@ module.exports = function(eleventyConfig) {
     return Array.from(tagsSet).sort()
   })
 
-  // // trying to make scheduled and draft posts work
-  // const publishedPosts = (post) => post.date <= now && !post.data.draft; // [1]
-
-  // eleventyConfig.addCollection("posts", (collection) => { // [2]
-  //   return collection
-  //       .getFilteredByGlob("./src/posts/*.md") // [3]
-  //       .filter(publishedPosts); // [4]
-  // });
-
   const md = markdownIt({ linkify: true, html: true })
   md.use(markdownItAnchor, { level: [1, 2], permalink: true, permalinkBefore: false, permalinkSymbol: '#' })
   eleventyConfig.setLibrary('md', md)

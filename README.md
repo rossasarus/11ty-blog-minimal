@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/a9b962b7-9df1-49db-9b40-e5fedbc8ba9e/deploy-status)](https://app.netlify.com/sites/eleventy-blog-starter/deploys)
 
-View the live demo [here](https://eleventy.rongying.co/), hosted on Netlify
+View the live demo [here](https://rossd.dev/), hosted on Netlify
 
 ![homepage](blog-v2.png)
 ![darkmode](blog-dark.png)
@@ -53,7 +53,7 @@ Create your blogpost under `src/posts`. I like to have mine sorted by YY/MM.
 
 Navigate to localhost:8080 after starting the server.
 ```
-npm start
+npm run start
 ```
 
 
