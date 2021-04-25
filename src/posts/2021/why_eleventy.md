@@ -2,14 +2,14 @@
 title: Why did I choose eleventy / netlify?
 date: 2020-04-18
 author: RossD
+published: true
 summary: How to not get stuck when deciding on a blogging platform (for software developers)
 tags:
   - tech
   - platform
   - eleventy
-draft: false
 ---
-I've been meaning to start a blog/portfolio site for almost two years now. I looked into all sort of jam stack solutions, thought about coding something up from scratch, and even considered just writing bare html. I didn't want to go with wordpress because that feels like a cop out (even though it is definitely the 2nd best option) 
+This wouldn't be a tech blog without some obsessive navel-gazing, now would it? I doubt anyone really cares how this site is hosted, but just in case - here's my justification for choosing 11ty and netlify! I've been meaning to start a blog/portfolio site for almost two years now. I looked into all sort of jam stack solutions, thought about coding something up from scratch, and even considered just writing bare html. I didn't want to go with wordpress because that feels like a cop out (even though it is definitely the 2nd best option) 
 
 Ultimately I chose eleventy hosted on netlify for a few reasons:
 <!-- excerpt -->

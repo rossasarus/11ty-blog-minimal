@@ -2,10 +2,10 @@
 title: Hello world!
 date: 2020-04-18
 author: RossD
+published: true
 summary: Setting up a blog is so 90's. So why did I do it?
 tags:
   - tech
-draft: false
 ---
 Blogging is admittedly kind of old-school nowadays. 
 
